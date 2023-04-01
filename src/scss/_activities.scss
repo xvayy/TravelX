@@ -1,0 +1,137 @@
+.activities {
+  @media (max-width: $breakpoint768){
+    padding: 100px 0px;
+  }
+  padding: 140px 0 200px 0;
+  &__wrapper {}
+
+  &__subtitle {}
+
+  &__container {
+    max-width: 1690px;
+  }
+
+  &__title {
+    @media (max-width: $breakpoint768){
+      margin-bottom: 55px;
+    }
+    margin-bottom: 111px;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__swiper {
+    // @media (max-width: $breakpoint1450){
+    //   max-width: 1100px;
+    // }
+    max-width: 1480px;
+    width: 100%;
+  }
+
+  &__slide {
+    @media (max-width: $breakpoint1450){
+      min-height: 450px;
+      min-width: 250px;
+    }
+    @media (max-width: $breakpoint600){
+      min-height: 380px;
+      min-width: 200px;
+    }
+    min-height: 620px;
+    min-width: 351px;
+    border-radius: 10px;
+  }
+
+  &__slide-info {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+  }
+
+  &__slide-title {
+    @media (max-width: $breakpoint600){
+      font-size: 28px;
+      line-height: 24px;
+    }
+    font-family: $font2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+  }
+
+  &__slide-text {
+  font-family: $font3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.7;
+  }
+}
+
+.swiper__btn img {
+  @media (max-width: $breakpoint600){
+    display: none;
+  }
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+}
+
+.swiper-btn-prev img {
+  z-index: 2;
+  left: -20px;
+}
+
+.swiper-btn-next img {
+  z-index: 2;
+  right: -20px;
+}
+
+.btn-subtitle {
+  position: relative;
+  p {
+    position: absolute;
+
+  } 
+}
+
+.swiper-wrapper {
+  max-width: 1480px;
+  width: 100%;
+}
+
+.swiper-slide {}
+
+
+.slide-1 {
+  background-image: url(../img/swiper1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-2 {
+  background-image: url(../img/swiper2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slide-3 {
+  background-image: url(../img/swiper3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slide-4 {
+  background-image: url(../img/swiper4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
